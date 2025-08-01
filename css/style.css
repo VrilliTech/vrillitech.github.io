@@ -1,6 +1,7 @@
 :root {
     --primary: #F4BD50;
-    --background: #191919;
+    /* --background: #191919; */
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%);
     --navbar-height: 48px;
 }
 
@@ -19,6 +20,7 @@
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
+    /* border: 2px solid red; */
 }
 
 .menu__wrapper {
